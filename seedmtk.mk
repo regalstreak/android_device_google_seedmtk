@@ -27,3 +27,15 @@ $(call inherit-product, device/google/sprout-common/sprout.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.sprout.rc:root/init.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout
+
+# OTAUpdates
+PRODUCT_PACKAGES += \
+    OTAUpdates
+
+# OTA dependencies
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.ota.romname=du-m-seedmtk \
+        ro.ota.version=$(shell date +%Y%m%d) \
+        ro.ota.manifest=https://ota.msfjarvis.me/du-m-seedmtk.xml
+
+
