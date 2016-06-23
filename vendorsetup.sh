@@ -1,2 +1,2 @@
-add_lunch_combo cm_sprout8-userdebug
-add_lunch_combo cm_sprout8-eng
+add_lunch_combo cm_seedmtk-userdebug
+add_lunch_combo cm_seedmtk-eng
