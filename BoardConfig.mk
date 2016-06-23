@@ -13,11 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-LOCAL_PATH := device/google/sprout8
+LOCAL_PATH := device/google/seedmtk
 
 # inherit from common sprout repo
 -include device/google/sprout-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := sprout,sprout8
+TARGET_OTA_ASSERT_DEVICE := sprout,Pixelv1_sprout,seedmtk
 
-TARGET_RECOVERY_FSTAB := device/google/sprout8/rootdir/root/fstab.sprout
+TARGET_RECOVERY_FSTAB := device/google/seedmtk/rootdir/root/fstab.sprout
