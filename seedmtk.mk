@@ -25,5 +25,4 @@ $(shell touch $OUT/obj/KERNEL_OBJ/usr/export_includes)
 $(call inherit-product, device/google/sprout-common/sprout.mk)
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/root/init.sprout.rc:root/init.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout
