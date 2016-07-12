@@ -18,8 +18,8 @@
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 #Hack for prebuilt kernel
-$(shell mkdir -p $OUT/obj/KERNEL_OBJ/usr)
-$(shell touch $OUT/obj/KERNEL_OBJ/usr/export_includes)
+$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
+$(shell touch $(OUT)/obj/KERNEL_OBJ/usr/export_includes)
 
 # common sprout
 $(call inherit-product, device/google/sprout-common/sprout.mk)
