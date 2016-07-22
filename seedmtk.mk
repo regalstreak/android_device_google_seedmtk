@@ -30,12 +30,4 @@ PRODUCT_COPY_FILES += \
 
 # OTAUpdates
 PRODUCT_PACKAGES += \
-    OTAUpdates
-
-# OTA dependencies
-PRODUCT_PROPERTY_OVERRIDES += \
-        ro.ota.romname=du-m-seedmtk \
-        ro.ota.version=$(shell date +%Y%m%d) \
-        ro.ota.manifest=https://ota.msfjarvis.me/du-m-seedmtk.xml
-
-
+    SlimOTA
