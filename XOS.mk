@@ -2,7 +2,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/XOS/config/common.mk)
+$(call inherit-product, vendor/xos/config/common.mk)
 
 PRODUCT_NAME := XOS_seedmtk
 PRODUCT_DEVICE :=seedmtk
